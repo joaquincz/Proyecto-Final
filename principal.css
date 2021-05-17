@@ -1,0 +1,113 @@
+.pie{
+    margin-top: 60px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen:hover{
+    border: 1px solid black;
+}
+
+.negro{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+.a:link{
+    text-decoration: none;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+.marketing h2 {
+    font-weight: 400;
+  }
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+.margen{
+    margin: 10px;
+}
+
+.margenBajo{
+  margin-bottom: 20px;
+}
+
+.margenIzquierdo{
+  margin-left: 100px;
+  }
+  @media (max-width: 700px) {
+    .margenIzquierdo {
+      margin-left: 0;
+    }
+  }
+
+.texto{
+    font-size: 2.5vh;
+    font-size: 2.5vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:rgb(54, 53, 53);
+}
+
+.featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  @media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 60px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 5rem;
+    }
+  }
+
+.bordesGenero{
+  border: 2px solid black;
+  border-radius: 10px;
+  color:rgb(255, 255, 255);
+  -webkit-text-stroke:1.5px black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.fondo{
+  background: linear-gradient(rgb(255, 255, 255), white, rgb(255, 196, 0), rgb(255, 174, 0));
+}
+
+.aparecer{
+  animation-duration: 1s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
